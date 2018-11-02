@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1b3b1c5-70be-4954-84d9-34056b9430c9" name="Default" comment="" />
+    <list default="true" id="b1b3b1c5-70be-4954-84d9-34056b9430c9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/matching_multiple_groups_with_the_pipe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/phone_no_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,7 +15,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Regular_expression_practice$matching_multiple_groups_with_the_pipe.coverage" NAME="matching_multiple_groups_with_the_pipe Coverage Results" MODIFIED="1541138940278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Regular_expression_practice$regex_practice_1.coverage" NAME="regex_practice_1 Coverage Results" MODIFIED="1541137730197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Regular_expression_practice$phone_no_test.coverage" NAME="phone_no_test Coverage Results" MODIFIED="1541139804526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Regular_expression_practice$grouping_with_parentheses.coverage" NAME="grouping_with_parentheses Coverage Results" MODIFIED="1541138207844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -24,11 +31,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="grouping_with_parentheses.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="grouping_with_parentheses.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grouping_with_parentheses.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="matching_multiple_groups_with_the_pipe.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/matching_multiple_groups_with_the_pipe.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phone_no_test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/phone_no_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="4" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -42,12 +67,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/regex_practice_`.py" />
         <option value="$PROJECT_DIR$/regex_practice_1.py" />
         <option value="$PROJECT_DIR$/grouping_with_parentheses.py" />
+        <option value="$PROJECT_DIR$/matching_multiple_groups_with_the_pipe.py" />
+        <option value="$PROJECT_DIR$/phone_no_test.py" />
       </list>
     </option>
   </component>
@@ -58,10 +88,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-24" />
-    <option name="y" value="110" />
+    <option name="x" value="31" />
+    <option name="y" value="242" />
     <option name="width" value="1534" />
     <option name="height" value="825" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -100,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.grouping_with_parentheses">
+  <component name="RunManager" selected="Python.phone_no_test">
     <configuration name="grouping_with_parentheses" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Regular-expression-practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,6 +148,44 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/grouping_with_parentheses.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="matching_multiple_groups_with_the_pipe" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Regular-expression-practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/matching_multiple_groups_with_the_pipe.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="phone_no_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Regular-expression-practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/phone_no_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,9 +213,13 @@
     <list>
       <item itemvalue="Python.regex_practice_1" />
       <item itemvalue="Python.grouping_with_parentheses" />
+      <item itemvalue="Python.matching_multiple_groups_with_the_pipe" />
+      <item itemvalue="Python.phone_no_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.phone_no_test" />
+        <item itemvalue="Python.matching_multiple_groups_with_the_pipe" />
         <item itemvalue="Python.grouping_with_parentheses" />
         <item itemvalue="Python.regex_practice_1" />
       </list>
@@ -164,13 +239,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-19" y="88" width="1227" height="660" extended-state="0" />
+    <frame x="25" y="194" width="1227" height="660" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32824427" />
       <window_info anchor="bottom" id="Terminal" />
@@ -208,6 +283,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matching_multiple_groups_with_the_pipe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phone_no_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
